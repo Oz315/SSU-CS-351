@@ -1,2 +1,3 @@
 # SSU-CS-351
-C Architecture with Dave
+Computer Architecture with Dave
+* Project 1
