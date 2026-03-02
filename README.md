@@ -15,6 +15,8 @@ Computer Architecture with Dave
     * the relationship of the head, tail, and Node next pointers.
     * show the size (in bytes) and structure of a Node that allocated six bytes of data
     * include the bytes pointer, and indicate using an arrow which byte in the allocated memory it points to.
-    ![My Diagram](Project-1_diagram?.png)
+    ![My Diagram that is not working for whatever reason, yaya](/Project-1_diagram?.png)
 7. There's an overhead to allocating memory, initializing it, and eventually processing (in our case, hashing it). For each program, were any of these tasks the same? Which one(s) were different?
+    <p>I'd say the allocation of memory was different for each program, either it functioned on the stack or heap. Though the processing was the same for everyone, considering that each program is doing essentially the same thing just slightly different. Same with initialization.</p>
 8. As the size of data in a Node increases, does the significance of allocating the node increase or decrease?
+    <p>I think the significance of allocating the Node decreases. If the size of daata in a <i>single</i> Node increases then yes it's significance would increase as comparitively it is considerably more memory that needs to be allocated. But if the size of data in all the Nodes is increasing similarly, then to the total work, no, its not very significant.</p>
